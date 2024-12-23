@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;&display=swap');
+:root{
+    --green:#16a085;
+    --black:#444;
+    --light-color:#777;
+    --box-shadow: 5rem .5rem 0 rgba(22,160,133,.2);
+    --text-shadow: .4rem .4rem 0 rgba(0,0,0,.2);
+    --border: .2rem solid var(--green);
+}
+
+
+* {
+    font-family: 'Poppins',sans-serif;
+    margin:0;padding:0;
+    box-sizing: border-box;
+    outline: none;border:none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+
+
+.header{
+    padding:2rem 9%;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+    background: #fff;
+
+}
+.header .logo{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+.header .logo i{
+    color: var(--green);
+}
+section{
+    padding: 2rem 9%;
+
+}
+section:nth-child(even){
+    background: #f5f5f5;
+
+}
+.tips .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.tips .row .image{
+    flex: 1 1 45rem;
+}
+.tips .row .image img{
+    width: 100%;
+}
+.tips .row .content{
+    flex: 1 1 45rem;
+}
+.tips .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+.tips .row .content p{
+    color: var(--light-color);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+.tips1 .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.tips1 .row .image{
+    flex: 1 1 45rem;
+}
+.tips1 .row .image img{
+    width: 100%;
+}
+.tips1 .row .content{
+    flex: 1 1 45rem;
+}
+.tips1 .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+.tips1 .row .content p{
+    color: var(--light-color);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+.tips2 .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.tips2 .row .image{
+    flex: 1 1 45rem;
+}
+.tips2 .row .image img{
+    width: 100%;
+}
+.tips2 .row .content{
+    flex: 1 1 45rem;
+}
+.tips2 .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+.tips2 .row .content p{
+    color: var(--light-color);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+.tips3 .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.tips3 .row .image{
+    flex: 1 1 45rem;
+}
+.tips3 .row .image img{
+    width: 100%;
+}
+.tips3 .row .content{
+    flex: 1 1 45rem;
+}
+.tips3 .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+.tips3 .row .content p{
+    color: var(--light-color);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+.tips4 .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.tips4 .row .image{
+    flex: 1 1 45rem;
+}
+.tips4 .row .image img{
+    width: 100%;
+}
+.tips4 .row .content{
+    flex: 1 1 45rem;
+}
+.tips4 .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+.tips4 .row .content p{
+    color: var(--light-color);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+.tips5 .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.tips5 .row .image{
+    flex: 1 1 45rem;
+}
+.tips5 .row .image img{
+    width: 100%;
+}
+.tips5 .row .content{
+    flex: 1 1 45rem;
+}
+.tips5 .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+.tips5 .row .content p{
+    color: var(--light-color);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #4caf50;
+    color: white;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}

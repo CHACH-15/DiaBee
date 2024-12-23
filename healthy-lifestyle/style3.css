@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;&display=swap');
+:root{
+    --green:#16a085;
+    --black:#444;
+    --light-color:#777;
+    --box-shadow: 5rem .5rem 0 rgba(22,160,133,.2);
+    --text-shadow: .4rem .4rem 0 rgba(0,0,0,.2);
+    --border: .2rem solid var(--green);
+}
+* {
+    font-family: 'Poppins',sans-serif;
+    margin:0;padding:0;
+    box-sizing: border-box;
+    outline: none;border:none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 1rem;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 3rem;
+    letter-spacing: .4rem;
+}
+.heading span{
+    text-transform: uppercase;
+    color: var(--green);
+}
+.health .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.health .row .image{
+    flex: 1 1 45rem;
+}
+.health .row .image img{
+    width: 100%;
+}
+.health .row .content{
+    flex: 1 1 45rem;
+}
+.health .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+.health .row .content .para{
+    color: var(--light-color);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    font-weight: bold;
+}
+.health .row .content .ff{
+    color: var(--light-color);
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+  
+}
+.arrow {
+    position: relative; /* Position relative to its parent container */
+    display: block; /* Makes it a block element */
+    margin: 1rem auto; /* Centers it horizontally and adds spacing */
+    width: 2rem; /* Smaller size for the arrow */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.arrow:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+.blogs .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 2rem;
+}
+.blogs .box-container .box{
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding: 2rem;
+}
+.blogs .box-container .box .image{
+    height: 20rem;
+    overflow: hidden;
+    border-radius: .5rem;
+}
+.blogs .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.blogs .box-container .box:hover .image img{
+    transform: scale(1.2);
+}
+.blogs .box-container .box .content{
+    padding-top: 1rem;
+
+}
+.blogs .box-container .box .content .icon{
+    padding-top: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.blogs .box-container .box .content .icon a{
+    font-size: 1.4rem;
+    color: var(--light-color);
+}
+.blogs .box-container .box .content .icon a:hover{
+    color: var(--green);
+}
+.blogs .box-container .box .content .icon a i{
+    padding: .5rem;
+    color: var(--green);
+}
+.blogs .box-container .box .content h3{
+    color: var(--black);
+    font-size: 3rem;
+}
+.blogs .box-container .box .content p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding: 1rem 0;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    border: var(--border);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    color: var(--green);
+    cursor: pointer;
+    font-size: 1.7rem;
+    background: #fff;
+}
+.btn span{
+    padding: .7rem 1rem;
+    border-radius: .5rem;
+    background: var(--green);
+    color: #fff;
+    margin-left: .5rem;
+}
+.btn:hover{
+    background: var(--green);
+    color: #fff;
+}
+.btn:hover span{
+    color: var(--green);
+    background: #fff;
+    margin-left: 1rem;
+}
+.advice-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.advice-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.advice-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 0 10px;
+ }
+
+.advice-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.advice-card i {
+    font-size: 30px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+ }
+
+.advice-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+}
+.advice-section {
+    padding: 20px;
+    text-align: center;
+}
+
+  .advice-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .advice-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive cards */
+    gap: 20px; /* Space between cards */
+    max-width: 1200px; /* Optional: Limit the container width */
+    margin: 0 auto; /* Center the grid on the page */
+    padding: 20px; /* Add some space inside the container */
+  }
+  .advice-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .advice-card i {
+    font-size: 40px;
+    color: #4CAF50;
+    margin-bottom: 15px;
+  }
+
+  .advice-card p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+  }
+   .header{
+    padding:2rem 9%;
+    position:fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+    background: #fff;
+
+}
+.header .navbar a{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-left: 2rem;
+}
+.header .navbar a:hover{
+    color: var(--green);
+
+}
+.faq-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .faq-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 15px;
+  }
+  
+  .faq-question {
+    width: 100%;
+    background-color: #6d757e;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .faq-question:hover {
+    background-color: #4CAF50;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 10px;
+    margin-top: 5px;
+    border-left: 3px solid #007bff;
+    background-color: #e9f5ff;
+    border-radius: 4px;
+  }
+  
+  .faq-question.active + .faq-answer {
+    display: block;
+  }
+  .header .logo{
+    font-size: 2.5rem;
+    color: var(--black);
+  }
+.header .logo i{
+    color: var(--green);
+}
