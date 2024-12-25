@@ -117,15 +117,15 @@ section .icon {
     letter-spacing: .4rem;
 }
 .arrow {
-    position: relative; /* Position relative to its parent container */
-    display: block; /* Makes it a block element */
-    margin: 1rem auto; /* Centers it horizontally and adds spacing */
-    width: 2rem; /* Smaller size for the arrow */
-    height: auto; /* Maintain aspect ratio */
-    cursor: pointer; /* Pointer cursor for interactivity */
-    transition: transform 0.3s ease; /* Smooth hover effect */
+    position: relative; 
+    display: block; 
+    margin: 1rem auto; 
+    width: 2rem; 
+    height: auto; 
+    cursor: pointer; 
+    transition: transform 0.3s ease; 
 }
 
 .arrow:hover {
-    transform: scale(1.1); /* Slightly enlarge on hover */
+    transform: scale(1.1);
 }
