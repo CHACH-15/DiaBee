@@ -15,7 +15,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #c4c3c1;
+    background-color: #e2d4b7;
     color: #333;
 }
 
@@ -41,13 +41,13 @@ section {
 
 h2 {
     font-size: 1.8rem;
-    color:#51851a;
+    color:#df9f16;
     margin-bottom: 10px;
 }
 
 h2 i {
     margin-right: 10px;
-    color: #070707;
+    color:brown;
 }
 
 ul {
@@ -64,7 +64,7 @@ ul li {
 
 ul li i {
     margin-right: 10px;
-    color: #51851a;
+    color:brown;
 }
 
 table {
@@ -80,7 +80,7 @@ table th, table td {
 }
 
 table th {
-    background-color: #51851a;
+    background-color: #db9e82;
     color: white;
 }
 
