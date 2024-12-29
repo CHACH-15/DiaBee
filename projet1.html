@@ -224,8 +224,28 @@
             <input type="text" placeholder="your name" class="box">
             <input type="number" placeholder="your number" class="box">
             <input type="email"  placeholder="     @gmail.com" class="box">
-            <input type="date" class="box">
+            <input type="datetime-local" placeholder="Select Appointment Time:" class="date">
+            <select id="services" class="box">
+                <option value="" disabled selected>Select a service</option>
+                <!-- Doctors -->
+                <option value="expert-doctor">Expert Doctor</option>
+                <option value="hormonal-disorders">Hormonal Disorders</option>
+                <option value="cardiologist">Cardiologist</option>
+                <option value="diabetes-special">Diabetes Specialist</option>
+                <option value="mental-health">Mental Health Counselor</option>
+                <option value="ophthalmologist">Ophthalmologist</option>
+                <!-- Nutritionists -->
+                <option value="clinical-nutrition">Clinical Nutrition for Diabetes</option>
+                <option value="meal-planning">Meal Planning for Diabetics</option>
+                <option value="nutrition-specialist">Nutrition Specialist</option>
+                <!-- Physical Educators -->
+                <option value="strength-training">Strength Training for Diabetics</option>
+                <option value="exercise-control">Exercise for Blood Sugar Control</option>
+                <option value="exercise-physiologist">Exercise Physiologist</option>
+            </select>
             <input type="submit" value="book now" class="btn">
+            
+            
 
         </form>
     </div>

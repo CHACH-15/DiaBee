@@ -316,6 +316,16 @@ section:nth-child(even){
     text-transform: none;
     padding: 1rem;
 }
+.book .row form .date{
+    width: 100%;
+    margin: .7rem 0;
+    border-radius: .5rem;
+    border: var(--border);
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+    padding: 1rem;
+}
 .book .row form .btn{
     padding: 1rem 4rem;
 }
@@ -404,6 +414,20 @@ section:nth-child(even){
 }
 .footer .credit span{
     color: var(--green);
+}
+.book .row form label {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    display: block;
+    color: #333;
+}
+
+
+.book .row form select:focus,
+.book .row form input[type="datetime-local"]:focus {
+    border-color: #57c6e8;
+    outline: none;
+    background: #fff;
 }
 
 
