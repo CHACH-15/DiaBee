@@ -212,43 +212,52 @@
 
     </div>
  </section>
- <section class="book" id="book">
+ 
+<section class="book" id="book">
     <h1 class="heading"><span>book</span>now</h1>
     <div class="row">
         <div class="image">
             <img src="assets2/bookapp.jpg" alt="">
 
         </div>
-        <form action="">
-            <h3>book appointement</h3>
-            <input type="text" placeholder="your name" class="box">
-            <input type="number" placeholder="your number" class="box">
-            <input type="email"  placeholder="     @gmail.com" class="box">
-            <input type="datetime-local" placeholder="Select Appointment Time:" class="date">
-            <select id="services" class="box">
-                <option value="" disabled selected>Select a service</option>
-                <!-- Doctors -->
-                <option value="expert-doctor">Expert Doctor</option>
-                <option value="hormonal-disorders">Hormonal Disorders</option>
-                <option value="cardiologist">Cardiologist</option>
-                <option value="diabetes-special">Diabetes Specialist</option>
-                <option value="mental-health">Mental Health Counselor</option>
-                <option value="ophthalmologist">Ophthalmologist</option>
-                <!-- Nutritionists -->
-                <option value="clinical-nutrition">Clinical Nutrition for Diabetes</option>
-                <option value="meal-planning">Meal Planning for Diabetics</option>
-                <option value="nutrition-specialist">Nutrition Specialist</option>
-                <!-- Physical Educators -->
-                <option value="strength-training">Strength Training for Diabetics</option>
-                <option value="exercise-control">Exercise for Blood Sugar Control</option>
-                <option value="exercise-physiologist">Exercise Physiologist</option>
-            </select>
-            <input type="submit" value="book now" class="btn">
-            
-            
+        <form id="bookingForm">
+            <h3>Book Appointment</h3>
+            <input type="text" id="name" placeholder="Your name" class="box" required>
+            <input type="number" id="number" placeholder="Your number" class="box" required>
+            <input type="email" id="email" placeholder="@gmail.com" class="box" required>
+            <input type="datetime-local" id="datetime" class="box" required>
+            <input type="service" >
+            <select id="service" class="box" required>
+                
+                <option value="" disabled selected>Choose a service</option>
+                <option value="Expert Doctor Consultation">Expert Doctor Consultation</option>
+                <option value="Hormonal Disorders Specialist">Hormonal Disorders Specialist</option>
+                <option value="Cardiologist Appointment">Cardiologist Appointment</option>
+                <option value="Diabetes Specialist">Diabetes Specialist</option>
+                <option value="Mental Health Counselor">Mental Health Counselor</option>
+                <option value="Ophthalmologist Consultation">Ophthalmologist Consultation</option>
 
+                <option value="Clinical Nutrition for Diabetes">Clinical Nutrition for Diabetes</option>
+                <option value="Meal Planning for Diabetics">Meal Planning for Diabetics</option>
+                <option value="Nutrition Specialist">Nutrition Specialist</option>
+
+              
+                <option value="Strength Training for Diabetics">Strength Training for Diabetics</option>
+                <option value="Exercise for Blood Sugar Control">Exercise for Blood Sugar Control</option>
+                <option value="Exercise Physiologist">Exercise Physiologist</option>
+
+                
+                <option value="Initial Diagnosis">Initial Diagnosis</option>
+                <option value="Dietary Planning">Dietary Planning</option>
+                <option value="Exercise Regimen">Exercise Regimen</option>
+                <option value="Mental Well-Being Support">Mental Well-Being Support</option>
+                <option value="Ongoing Foot Care">Ongoing Foot Care</option>
+            </select>
+            <input type="submit" value="Book Now" class="btn">
         </form>
+        <div id="message" style="color: red; font-weight: bold; margin-top: 20px;"></div>
     </div>
+</section>
 
  </section>
  <section class="review" id="review">
