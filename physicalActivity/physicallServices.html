@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styleP.css">
+</head>
+<body>
+    <header class="header">
+      <a href="../projet1.html" class="logo" ><i class="fas fa-heartbeat"></i>DiaBee.</a>
+      <nav class="navbar" id="navbar">
+        <a href="#home1">home</a>
+        <a href="#BloodSugarLevelChecker">blood sugar tracker</a>
+        <a href="#tips">Tips</a>
+        <a href="#StayActive">Stay Active</a>
+      </nav>
+    </header>
+
+
+
+
+
+  <section class="home" id="home1">
+    <div class="image">
+        <img src="img/Landing2.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>Stay Active, Stay Healthy!</h3>
+        <p>Physical activity offers numerous benefits for health and well-being, particularly for individuals managing diabetes or other health conditions.
+            Regular exercise helps regulate blood sugar levels by improving insulin sensitivity and enhancing glucose uptake by muscles. It also promotes cardiovascular health,
+            reduces the risk of complications, and supports weight management. Beyond physical health, activity boosts mental well-being by reducing stress, improving mood, and enhancing sleep quality.
+            For those with chronic conditions, tailored physical activity can improve mobility, reduce pain,
+            and foster independence, contributing to a better overall quality of life.
+        </p>
+        <img 
+            src="img/arrow.png"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='#BloodSugarLevelChecker'"
+        />
+    </div>
+ </section>
+
+ <section class="home2" id="BloodSugarLevelChecker">
+    <div class="content">
+        <h3>Blood Sugar Level Checker</h3>
+        <p>Enter your blood sugar level to get detailed advice and recommendations.</p>
+        <label for="bloodSugar">Blood Sugar Level (mg/dL):</label>
+        <input type="number" id="bloodSugar" placeholder="Enter your level" class="box" required>
+        <button id="checkButton" class="btn">Check Now</button>
+        <div id="advice" class="advice-output"></div>
+        <div id="recommendations" class="recommendations-output"></div>
+    </div>
+    <div class="image">
+        <img src="img/2.jpg" alt="Person measuring blood sugar">
+    </div>
+ </section>
+ <script src="scriptP.js"></script>
+ <section class="exercise-tips" id="tips">
+    <h1>Tips for Staying Active and Healthy</h1>
+    <p>Hover over each tip to reveal more details:</p>
+    <div class="tips-grid">
+        <div class="tip">
+            <i class="fas fa-seedling"></i>
+            <h3>Start Small</h3>
+            <p>If you're new to exercise, begin with light activities like walking or stretching for 10-15 minutes daily. Gradually increase intensity.</p>
+        </div>
+        <div class="tip">
+            <i class="fas fa-stethoscope"></i>
+            <h3>Check Blood Sugar</h3>
+            <p>Always monitor your blood sugar levels before exercising. Adjust if it's too low (<70 mg/dL) or too high (>300 mg/dL).</p>
+        </div>
+        <div class="tip">
+            <i class="fas fa-tint"></i>
+            <h3>Stay Hydrated</h3>
+            <p>Drink plenty of water before, during, and after your workout to prevent dehydration.</p>
+        </div>
+        <div class="tip">
+            <i class="fas fa-running"></i>
+            <h3>Wear Comfortable Gear</h3>
+            <p>Use breathable clothing and supportive shoes to avoid injuries and stay comfortable.</p>
+        </div>
+        <div class="tip">
+            <i class="fas fa-cookie"></i>
+            <h3>Carry Snacks</h3>
+            <p>Keep quick snacks handy, like a granola bar, in case your blood sugar drops during activity.</p>
+        </div>
+        <div class="tip">
+            <i class="fas fa-bullseye"></i>
+            <h3>Set Goals</h3>
+            <p>Set realistic goals to stay motivated and celebrate small victories.</p>
+        </div>
+        <div class="tip">
+            <i class="fas fa-clock"></i>
+            <h3>Consistency is Key</h3>
+            <p>Exercise regularly, aiming for at least 30 minutes a day, 5 days a week, to maintain a healthy routine.</p>
+        </div>
+        <div class="tip">
+            <i class="fas fa-dumbbell"></i>
+            <h3>Mix It Up</h3>
+            <p>Incorporate a mix of cardio, strength training, and flexibility exercises to keep your workouts balanced and engaging.</p>
+        </div>
+        <div class="tip">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Warm-Up and Cool Down</h3>
+            <p>Always warm up before and cool down after exercising to prevent injuries and aid recovery.</p>
+        </div>
+        <div class="tip">
+            <i class="fas fa-users"></i>
+            <h3>Work Out with a Friend</h3>
+            <p>Exercising with a buddy can make workouts more fun and keep you accountable.</p>
+        </div>
+    </div>
+ </section>
+ <section class="kids-exercise-schedule" id="StayActive">
+    <h1>Fun Exercise Schedule for Kids with Diabetes</h1>
+    <p>Encourage your child to stay active with these enjoyable and diabetes-friendly activities. Each exercise includes a description and demonstration.</p>
+    <div class="schedule-container">
+        <div class="exercise-card">
+            <img src="img/hulahooping.gif" alt="Hula Hooping" class="exercise-image">
+            <h3>Morning: Hula Hooping</h3>
+            <p>A 15-minute hula hooping session is a fun way to get moving. It improves coordination and helps regulate blood sugar levels.</p>
+        </div>
+        <div class="exercise-card">
+            <img src="img/yoga.gif" alt="Yoga for Kids" class="exercise-image">
+            <h3>Mid-Morning: Yoga for Kids</h3>
+            <p>Engage in 20 minutes of simple yoga poses like Tree Pose and Cat-Cow Stretch to improve flexibility and calm the mind.</p>
+        </div>
+        <div class="exercise-card">
+            <img src="img/dance-with-me.gif" alt="Dance Party" class="exercise-image">
+            <h3>Afternoon: Dance Party</h3>
+            <p>Have a 30-minute dance session with your favorite music. Dancing is a fantastic cardio exercise that's loads of fun.</p>
+        </div>
+        <div class="exercise-card">
+            <img src="img/TEr2.gif" alt="Ball Games" class="exercise-image">
+            <h3>Evening: Ball Games</h3>
+            <p>Play a light game of catch, soccer, or basketball for 20 minutes. These games help build teamwork and burn energy.</p>
+        </div>
+        <div class="exercise-card">
+            <img src="img/jumprope.gif" alt="Jump Rope" class="exercise-image">
+            <h3>Late Afternoon: Jump Rope</h3>
+            <p>Spend 10-15 minutes jump roping. It's a fun cardio workout that helps strengthen the heart and maintain healthy blood sugar levels.</p>
+        </div>
+        <div class="exercise-card">
+            <img src="img/obstaclecourse.jpg" alt="Obstacle Course" class="exercise-image">
+            <h3>Weekend Activity: Obstacle Course</h3>
+            <p>Set up a mini obstacle course using cones, chairs, and toys. Spend 20-25 minutes navigating through the course for a full-body workout.</p>
+        </div>
+        <div class="exercise-card">
+            <img src="img/naturewalk.gif" alt="Nature Walk" class="exercise-image">
+            <h3>Afternoon: Nature Walk</h3>
+            <p>Take a 30-minute walk in a park or nearby nature trail. It’s a great way to explore, relax, and stay active at the same time.</p>
+        </div>
+        <div class="exercise-card">
+            <img src="img/jumpingOntrampoline.gif" alt="Animal Movements Game" class="exercise-image">
+            <h3>Fun Activity: jumping on trampoline</h3>
+            <p>Jumping on a trampoline helps kids with diabetes stay active, improve their blood sugar control, and boost their overall well-being in a fun and exciting way!</p>
+        </div>
+    </div>
+ </section>
+ <section class="contact-note">
+    <p>If you need any assistance with physical activity, <a href="../projet1.html#book">book an appointment</a>. Our team is here to help!</p>
+</section>
+</body>
