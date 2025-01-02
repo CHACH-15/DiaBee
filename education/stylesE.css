@@ -1,0 +1,236 @@
+:root{
+    --green:#16a085;
+    --black:#444;
+    --light-color:#777;
+    --box-shadow: 5rem .5rem 0 rgba(22,160,133,.2);
+    --text-shadow: .4rem .4rem 0 rgba(0,0,0,.2);
+    --border: .2rem solid var(--green);
+}
+
+
+
+
+
+body {
+    background-color: #f2ecd8;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header.hero {
+    background-color: #f2ecd8;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    color: #2b7a78;
+    font-size: 2.5em;
+}
+
+.hero p {
+    color: #070707;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+section img.illustration {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.care-tips {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.care-tips .tip {
+    background: #e3f2fd;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1 1 200px;
+}
+
+.care-tips .tip img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.fun-facts {
+    text-align: center;
+    margin: 40px auto;
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fun-facts h1 {
+    font-size: 2.5em;
+    color: #2b7a78;
+    margin-bottom: 10px;
+}
+
+.fun-facts p {
+    font-size: 1.2em;
+    color: #030202;
+    margin-bottom: 30px;
+    font-weight: bold
+}
+
+.facts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fact-card {
+    background-color: #e3f2fd;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.fact-card:hover {
+    transform: scale(1.05);
+    background-color: #d1ecf1;
+}
+
+.fact-icon {
+    font-size: 3em;
+    color: #2b7a78;
+    margin-bottom: 15px;
+}
+
+.fact-card h3 {
+    font-size: 1.5em;
+    color: #2b7a78;
+    margin-bottom: 10px;
+}
+
+.fact-card p {
+    font-size: 1em;
+    color: #333;
+}
+
+
+
+
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2b7a78;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #1a4f4b;
+}
+#gameArea {
+    width: 400px;
+    height: 600px;
+    position: relative;
+    border: 1px solid teal;
+    background-color: #f0f8ff;
+  }
+
+  .basket {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 175px;
+    background-color: teal;
+    border-radius: 10px;
+  }
+
+  .food {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .healthy {
+    background-image: url('imgE/healthy.jpg'); 
+    background-size: cover;
+  }
+
+  .unhealthy {
+    background-image: url('imgE/unhealthy.png'); 
+    background-size: cover;
+  }
+.hero .logo{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+.hero .logo i{
+    color: var(--green);
+}
+.hero .logo:hover {
+    color: var(--green);
+
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative; 
+    padding: 20px;
+}
+.hero .logo {
+    font-size: 2.5rem;
+    color: var(--black);
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+    text-decoration: none;
+}
+.contact-note {
+    background-color: #f4f4f4; 
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    border-top: 2px solid #27ae60;
+    font-size: 1.2rem;
+    color: #2c3e50; 
+}
+
+.contact-note p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.contact-note a {
+    color: #27ae60; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contact-note a:hover {
+    color: #1e8449; 
+}
