@@ -1,9 +1,10 @@
 const menuBtn = document.querySelector('#menu-btn');
-
+const navbar = document.querySelector('.navbar');
 
 menuBtn.addEventListener('click', () => {
-    document.querySelector(".navbar").classList.toggle("active") 
+    navbar.classList.toggle('active');
 });
+
 const bookings = [];
 
 
